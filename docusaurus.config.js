@@ -26,7 +26,7 @@ const config = {
           routeBasePath: 'docs',
           sidebarPath: require.resolve('./sidebars.js'),
           // Please change this to your repo.
-          editUrl: 'https://github.com/JimmyHoffa/SimpleErgoDocs/',
+          editUrl: 'https://github.com/JimmyHoffa/SimpleErgoDocs/tree/main/',
         },
         // blog: {
         //   showReadingTime: true,
