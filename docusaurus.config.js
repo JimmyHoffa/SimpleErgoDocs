@@ -28,12 +28,12 @@ const config = {
           // Please change this to your repo.
           editUrl: 'https://github.com/JimmyHoffa/SimpleErgoDocs/',
         },
-        blog: {
-          showReadingTime: true,
-          // Please change this to your repo.
-          editUrl:
-            'https://github.com/JimmyHoffa/SimpleErgoDocs/',
-        },
+        // blog: {
+        //   showReadingTime: true,
+        //   // Please change this to your repo.
+        //   editUrl:
+        //     'https://github.com/JimmyHoffa/SimpleErgoDocs/',
+        // },
         theme: {
           customCss: require.resolve('./src/css/custom.css'),
         },
@@ -43,12 +43,14 @@ const config = {
 
   themeConfig:
     /** @type {import('@docusaurus/preset-classic').ThemeConfig} */
-    ({
+  ({
+    defaultMode: 'dark',
       navbar: {
         title: 'Simple Ergo Docs',
         logo: {
           alt: 'Simple Ergo Docs',
-          src: 'img/logo.svg',
+          src: 'img/erg_logo_black.png',
+          srcDark: 'img/erg_logo_white.png',
         },
         items: [
           // {
@@ -68,15 +70,6 @@ const config = {
       footer: {
         style: 'dark',
         links: [
-          {
-            title: 'Docs',
-            items: [
-              {
-                label: 'Tutorial',
-                to: '/docs/intro',
-              },
-            ],
-          },
           {
             title: 'Community',
             items: [
