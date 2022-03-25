@@ -22,7 +22,7 @@ Why do I need a wallet?
 This statement is completely true, and one you can really rely on.
 
 The best way to understand the Ergo blockchain's management of your funds, is to imagine the Ergo
-block chain as a huge self-storage building.
+blockchain as a huge self-storage building.
 
 <img src={require("./self-store.jpeg").default} width="399" height="600" alt-text="SAFEW github" />
 
