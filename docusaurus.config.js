@@ -15,7 +15,13 @@ const config = {
   favicon: 'img/favicon.ico',
   organizationName: 'JimmyHoffa', // Usually your GitHub org/user name.
   projectName: 'SimpleErgoDocs', // Usually your repo name.
-
+  plugins: [
+    [
+      require.resolve('@cmfcmf/docusaurus-search-local'),
+      {
+      }
+    ]
+  ],
   presets: [
     [
       'classic',
