@@ -1,4 +1,4 @@
-# Website
+# View site at https://jimmyhoffa.github.io/SimpleErgoDocs/
 
 This website is built using [Docusaurus 2](https://docusaurus.io/), a modern static website generator.
 
